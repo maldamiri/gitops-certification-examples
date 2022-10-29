@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: paypal-cert
+  namespace: default
+spec:
+  encryptedData:
+    paypal.crt: AgCjuwhUM/j2R8Q7BgtqF6YJ61jKFdqha/uihh36FpNRVlmNaCHMl0Nqifh8xT6+Zk7999M0jsso2RUlR2/u7kSbZcg>
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: paypal-cert
+      namespace: default
+    type: Opaque
